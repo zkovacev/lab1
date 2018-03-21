@@ -1,0 +1,45 @@
+$ git confgi -global user.name "zkovacev"
+$ git config --global user.email zoki.kovacev@gmail.com
+$ cd Desktop
+$ mkdir lab1
+$ cd lab1
+$ git init
+$ notepad l1.txt
+$ git add l1.txt
+$ git commit -m "Initial commit"
+$ notepad l1.txt
+$ git commit -m "modify l1.txt"
+$ git remote add origin https://github.com/zkovacev/git-real1.git
+$ git push -u origin master
+$ notepad l1.txt
+$ git checkout -- l1.txt
+$ git status
+$ git pull
+$ ls
+$ cat l1.txt
+$ git log
+$ git branch
+$ git branch loggin
+$ git branch
+$ git checkout loggin
+$ git branch
+$ git log >> log.txt
+$ git add log.txt
+$ git commit -m "loggin"
+$ git push 
+$ git push --set-upstream origin loggin
+$ git checkout master
+$ git merge loggin
+$ git log
+$ git branch
+$ git push 
+$ git branch allcomands
+$ notepad commands.txt
+$ git add commands.txt
+$ git commit -m "Finish"
+$ git push
+$ git push --set-upstream origin allcomands
+$ git rebase master
+$ git branch
+$ git rebase master allcomands
+$ git branch
